@@ -12,6 +12,7 @@
 </head>
 <body style="overflow: hidden;">
 
+    <!-- navigation bar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <div class="is-hidden-mobile">
@@ -31,8 +32,6 @@
             </div>
         </div>
         
-      
-
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-end">
                   <a class="navbar-item mr-6 ml-6" href="#home">
@@ -65,7 +64,9 @@
 
         </div>
       </nav>
+      <!-- navbar end -->
 
+      <!-- 1st hero section - 1st column -->
       <div class="home-hero">
         <div class="main">
           <div class="sub is-hidden-mobile" style="width:60%; height: 350px; background-color: white;" id="home">
@@ -85,6 +86,7 @@
             </div> 
           </div>
 
+          <!-- 1st hero section - mobileview -->
           <div class="column is-hidden-desktop">
             <h1 class="title is-1" style="text-align:center; margin-bottom: 0rem; font-size: 80px; color: black; line-height: 72px;">Hi! I am Waruna</h1><br>
             <p style="text-align: center; font-size: 20px; color: #034460; font-weight: normal; ">Multimedia Designer | Freelancer</p><br>
@@ -107,14 +109,16 @@
           </div>
           <br>
 
+          <!-- 1st hero section - 2nd column -->
           <div class="sub is-hidden-mobile" style="width:35%; height: 350px; background-color:white;">
             <figure class="image" id="image-size">
               <img class="is-rounded" src="photo1.png">
             </figure>
           </div>
+
+          <!-- 1st hero section - 3rd column -->
           <div class="sub is-hidden-mobile" style="width:5%; height:350px; background-color:white;">
             <div class="column">
-
               <a href="https://www.facebook.com/waruna.parakckrama.7" target="_blank">
                 <button class="button is-white">
                   <span class="icon">
@@ -156,7 +160,9 @@
               <br>
             </div>
           </div>
+          <!-- column end -->
 
+          <!-- 1st hero section - mobileview -->
           <div class="columns is-mobile is-hidden-desktop">
             <div class="column" style="align-content: center;">
               <a href="https://www.facebook.com/waruna.parakckrama.7" target="_blank">
@@ -195,9 +201,9 @@
               </a>
             </div>
           </div>
+        </div>
 
-      </div>
-
+      <!-- about me -->
       <section>
         <div class="main is-hidden-mobile">
           <div class="sub" style="width: 100%; height: 300px; background-color: #034460;">
@@ -207,6 +213,7 @@
       </div>
       </section>
 
+      <!-- about me mobileview-->
       <section>
         <div class="column is-hidden-desktop" style="height: 790px; background-color: #034460;">
           <p style="text-align:center; font-size: 24px; color:white; margin-top: 1rem;" id="about"><b>About Me</b></p>
@@ -214,6 +221,7 @@
         </div>
       </section>
 
+      <!-- education -->
       <section>
         <div class="main">
           <div class="sub is-hidden-mobile" style="width: 100%; height: 300px; background-color: #034460;">
@@ -255,7 +263,9 @@
           </div>
       </div>
       </section>
+      <!-- section end -->
 
+      <!-- education mobileview -->
       <section>
         <div class="column is-hidden-desktop" style="height: 650px; background-color: #034460;">
           <p style="text-align:center; font-size: 24px; margin-top: auto; color:white;" id="showcase"><b>Education</b></p>
@@ -278,7 +288,9 @@
           <p style="text-align:center; font-size: 20px; margin-top: 0rem; color:white;">Information Systems</p>
         </div>
       </section>
+      <!-- section end -->
 
+      <!-- experience -->
       <section>
         <div class="main">
           <div class="sub is-hidden-mobile" style="width: 100%; height: 450px; background-color:white;">
@@ -312,7 +324,9 @@
           </div>
         </div>
       </section>
+      <!-- section end -->
 
+      <!-- experience mobileview -->
       <section>
         <div class="column is-hidden-desktop" style="height: 1370px; background-color: white;">
           <p style="text-align:center; font-size: 24px; color:#034460;"><b>Experience</b></p>
@@ -332,7 +346,9 @@
           <p style="text-align:center; font-size: 24px; font-weight: bold; color:#034460;">Advertisements</p>
         </div>
       </section>
+      <!-- section end -->
 
+      <!-- contact -->
       <section>
         <div class="home-hero is-hidden-mobile">
           <div class="main">
@@ -369,7 +385,10 @@
               </figure>
               <p id="text-align-2" style="font-size: 24px; margin-top: -2rem; color:#034460;" >4/25, Paramount Park, Colombo 03, SriLanka</p>
               <br>
+              <!-- section end -->
 
+
+              <!-- footer section -->
               <section class="is-hidden-mobile">
                 <div class="hero-body" style="width: 100%; height: 300px; background-color: #034460;">
                 </div>
@@ -409,7 +428,9 @@
           </div>
         </div>  
       </section>
+      <!-- section end -->
 
+      <!-- contact mobileview -->
       <section>
         <div class="column is-hidden-desktop" style="height: 480px; background-color: white;">
           <p style="text-align:center; font-size: 24px; margin-top: 0rem; color:#034460;" id="contact"><b>Contact</b></p>
@@ -446,28 +467,30 @@
           </div>
         </div>
       </section>
+      <!-- section end -->
 
+      <!-- footer mobileview -->
       <section>
         <a href="#home">
           <div class="column is-hidden-desktop" style="height: 120px; background-color: #034460;">
             <img src="/M white.png" width="120" height="4" style="margin-left: 105px;"></div>
         </a>
       </section>
+      <!-- section end -->
 
       <style>
          .main { display: flex;flex-direction: row;}
          
-
          @media (max-width: 800px){.sub{width: 100% !important;} .main{flex-direction: column;} #id1{display: none;}}
 
-         @font-face {font-family: poppins; src: url(Poppins-Regular.woff); font-weight: normal;} @font-face {font-family: poppins; src: url(Poppins-Light.woff); font-weight:lighter;} @font-face {font-family: poppins; src: url(Poppins-Bold.woff); font-weight:bold;}* {font-family: poppins;}
-         
-         
+         @font-face {font-family: poppins; src: url(Poppins-Regular.woff); font-weight: normal;} @font-face {font-family: poppins; src: url(Poppins-Light.woff); font-weight:lighter;} @font-face {font-family: poppins; src: url(Poppins-Bold.woff); font-weight:bold;}* {font-family: poppins;}   
       </style>
+
     </div>
 </body>
 
-<script>
+<!-- relevant script for navbar -->
+<script> 
   document.addEventListener('DOMContentLoaded', () => {
 
 // Get all "navbar-burger" elements
